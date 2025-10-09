@@ -10,9 +10,11 @@ int main() {
 
     std::cout << "v[0] = " << my.at(0) << "\n";
     std::cout << "v[1] = " << my.at(1) << "\n";
+    std::cout << "v[2] = " << my.at(2) << "\n";
     std::cout << "pop_back: " << my.pop_back() << "\n";
     std::cout << "pop_back: " << my.pop_back() << "\n";
     std::cout << "v[1] = " << my.at(1) << "\n";
+    std::cout << "v[2] = " << my.at(2) << "\n";
 
     std::cout << "Größe: " << my.getSize() << ", Kapazität: " << my.getCapacity() << "\n";
     return 0;
